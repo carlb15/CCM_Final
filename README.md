@@ -1,4 +1,7 @@
-# CCM_Final
+# Incorporating Human Prior Knowledge to Reinforcement Learning Agent for Atari Games
+
+In this project, we attempt to equip the agent with the recognition of basic components of an Atari game environment through curriculum learning—gleaned from human developmental psychology—and evaluate its performance. Our best agent was pre-trained on a carefully designed curriculum to learn to complete a new game 5x faster than regular agents. By analyzing our agent’s behavior, we can examine how it acquires knowledge and skills differently from humans.
+
 This code is modified from https://github.com/uvipen/Street-fighter-A3C-ICM-pytorch. Specifically, the major changes are made in src/env.py. Please install [PLE](https://pygame-learning-environment.readthedocs.io/) and the dependencies listed in requirements-dev.txt. Let me know if there is any bug. Thanks!
 
 ### TL;DR 
